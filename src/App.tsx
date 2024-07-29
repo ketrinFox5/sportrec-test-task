@@ -1,5 +1,5 @@
+import { Container } from '../node_modules/@mui/material/index';
 import './App.css';
-import { Container } from '@mui/material';
 import Header from './components/Header/index';
 // import OrganizationInfo from './components/OrganizationInfo/index';
 

@@ -1,4 +1,4 @@
-import SvgIcon from '@mui/material/SvgIcon';
+import { SvgIcon } from '../../../node_modules/@mui/material/index';
 
 const MapSvg = () => {
     return (

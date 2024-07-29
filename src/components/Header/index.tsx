@@ -1,11 +1,18 @@
-import React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import IconButton from '@mui/material/IconButton';
-import { Box, Menu, MenuItem, Button, Avatar, Container, Link, Badge } from '@mui/material';
+import {
+  AppBar,
+  Avatar,
+  Badge,
+  Box,
+  Button,
+  Container,
+  IconButton,
+  Link,
+  Menu,
+  MenuItem,
+  Toolbar,
+  Typography
+} from '../../../node_modules/@mui/material/index';
 import RussianFlagSvg from '../Icons/RussianFlagSvg';
-import LogoSvg from '../../assets/logo.svg';
 import HomeSvg from '../Icons/HomeSvg';
 import MarketSvg from '../Icons/MarketSvg';
 import RaitingSvg from '../Icons/RaitingSvg';
@@ -14,7 +21,8 @@ import OrganizationsSvg from '../Icons/OrganizationsSvg';
 import LiveSvg from '../Icons/LiveSvg';
 import ArrowDownSvg from '../Icons/ArrowDownSvg';
 import NotificationsSvg from '../Icons/NotificationsSvg';
-
+import LogoSvg from '../Icons/LogoSvg';
+import * as React from 'react';
 
 // interface IPage {
 //     text: string,
@@ -47,9 +55,9 @@ const Header = () => {
           <Container sx={{padding: ' 14px 0', maxWidth: '1160px', }}>
             <Toolbar>
               <Box sx={{flexGrow: 1, display: 'flex', alignItems: 'center', justifyContent: 'space-between',}}>
-                <img src={`${LogoSvg}`} alt="Logo" style={{ marginRight: '30px' }}/>
-                  <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontFamily: 'Inter', marginRight: '48px' }}>
-                    {pages.map((page: IPage) => (
+                  <LogoSvg />
+                  <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontFamily: 'Inter', marginLeft: '30px', marginRight: '48px' }}>
+                    {pages.map((page) => (
                       <Box>
                         <Link href={page.text} underline="none" color="#9395B8" sx={{ flexGrow: 1, display: 'flex', alignItems: 'center'}}>
                           {page.icon}

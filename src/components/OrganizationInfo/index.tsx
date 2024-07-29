@@ -1,4 +1,4 @@
-import { Box, Avatar, Typography  } from '@mui/material';
+import { Avatar, Box, Typography } from '../../../node_modules/@mui/material/index';
 import MapSvg from '../Icons/MapSvg';
 
 const OrganizationInfo = () => {

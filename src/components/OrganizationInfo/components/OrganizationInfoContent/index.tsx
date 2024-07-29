@@ -1,5 +1,5 @@
-import { CardContent, Typography  } from '@mui/material';
 // import { IOrganizationInfo } from '../../../../interfaces/IOrganizationInfo';
+import { CardContent, Typography } from '../../../../../node_modules/@mui/material/index';
 
 const OrganizationInfoContent = () => {
     return(
