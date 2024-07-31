@@ -81,7 +81,7 @@ const Header = () => {
                 </Badge>
               </IconButton>
               <IconButton color="inherit" onClick={handleMenuOpen}>
-                <Avatar alt="User Name" src="src/assets/avatar.svg"  sx={{ width: 36, height: 36, marginRight: '8px', bgcolor: '#06082C' }}/>
+                <Avatar alt="User Name" src="/avatar.svg" sx={{ width: 36, height: 36, marginRight: '8px', bgcolor: '#06082C' }}/>
                 <ArrowDownSvg/>
               </IconButton>
               <Menu anchorEl={anchorEl} open={Boolean(anchorEl)} onClose={handleMenuClose}>
