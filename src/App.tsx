@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     <Header/>
-    <Container maxWidth="1160px"  >
+    <Container sx={{maxWidth: '1160px'}}  >
     {/* <OrganizationInfo/> */}
     </Container>
     </>
