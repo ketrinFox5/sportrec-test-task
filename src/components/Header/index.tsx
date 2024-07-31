@@ -26,7 +26,7 @@ import * as React from 'react';
 
 // interface IPage {
 //     text: string,
-//     icon: JSX.Element
+//     icon: string
 // }
 
 const Header = () => {
@@ -70,7 +70,7 @@ const Header = () => {
                 </Box>
               <Button color="inherit" sx={{fontSize: '14px'}}>
                 <RussianFlagSvg/>
-                <Typography variant="14" sx={{margin: '0 4px'}}>
+                <Typography sx={{margin: '0 4px', fontSize: '14px'}}>
                   RU
                 </Typography>
                 <ArrowDownSvg/>
